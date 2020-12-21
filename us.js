@@ -86,13 +86,29 @@ bird.eggs.forEach(function(val,Idx){
 });
 
 
+// For loop another example---------------------------------------------------------------------------
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+for (i = 0; i < cars.length; i++) {
+  console.log(cars[i]);
+}
+
+// Same EWxample  in string
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + " ";
+ 
+}
+console.log(text);
 
 
 
-
-
-
-
+var movies=["a","b","c","d","e","f"];
+for (i = 0; i < movies.length; i++) {
+    console.log(movies[i]);
+}
 
 
 
